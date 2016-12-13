@@ -23,6 +23,9 @@ mat2 rotationMatrix(float cosFactor, float sinFactor)
 void main() {
 
     float scale = 12.0;
+
+    if (EYE_TYPE == 1) scale *= 1.2;
+
     float time = u_time * 2.5;
 
     vec2 center = vec2(0., 0.);
