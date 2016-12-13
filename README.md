@@ -1,2 +1,2 @@
 # glsl-series
-Some shaders series
+Some shader series
